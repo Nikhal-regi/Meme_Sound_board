@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: block;
+    background-color: rgba(0,255,0,0.5);
+}
+
+header{
+    width: 206vh;
+    height: 10vh;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.image-container {
+    display: inline-block;
+    justify-content: center;
+}
+
+.image-container-2 {
+    display: inline-block;
+    margin-top: 50px;
+    justify-content: center;
+}
+  
+.image-button {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    justify-content:center;
+    margin: 0px 40px 0px 40px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+#I1{
+    background-image: url("miscellanous/Snoop.webp");
+    background-size: cover;
+    border: 2px solid red;
+}
+
+#I2{
+    background-image: url("miscellanous/cowboyrat.jpg");
+    background-size: cover;
+    border: 2px solid red;
+}
+
+#I3{
+    background-image: url("miscellanous/hehe.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid red;
+}
+
+#I4{
+    background-image: url("miscellanous/wow.webp");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid red;
+}
+
+#I5{
+    background-image: url("miscellanous/god.jpg");
+    background-size: cover;
+    border: 2px solid red;
+}
+
+#I6{
+    background-image: url("miscellanous/really.jpeg");
+    background-size: cover;
+    border: 2px solid red;
+}
+
+#I7{
+    background-image: url("miscellanous/handcuff.jpg");
+    background-size: cover;
+    border: 2px solid red;
+}
+
+#I8{
+    background-image: url("miscellanous/violin.jpg");
+    background-size: cover;
+    border: 2px solid red;
+}
+
+#I9{
+    background-image: url("miscellanous/airhorn.jpeg");
+    background-size: cover;
+    border: 2px solid red;
+}
+
+#I10{
+    background-image: url("miscellanous/about.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid red;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 206vh;
+    height: 5vh;
+    text-align: center;
+    background-color:  rgba(0,255,0,0.5);
+}
+    
